@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Sunconure</title>
+    <style>
+        body {
+            margin: 0 auto;
+            width: 100%;
+            background-color: rgb(255, 250, 213); 
+            color: black; 
+            background-image: url('img/d.png'), url('img/d2.png'); /* Set background image */
+            background-repeat: no-repeat, no-repeat; /* Prevent image from repeating */
+            background-size: 25%; 
+            background-position: 0 0, right 0; /* Adjust background position */
+        }
+
+
+        .clear {
+            clear: both;
+        }
+
+        #navigation {
+            text-align: center;
+        }
+
+        #header {
+            text-align: center;
+        }
+
+        #aside {
+            float: left;
+            width: 20%; 
+            margin-left: 8%;
+            margin-top: 180px;
+        }
+
+        #section {
+            width: 60%; 
+            margin: 180px 4% 0;
+            text-align: center;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #section img {
+            max-width: 100%; 
+        }
+
+
+        #section img {
+            max-width: 100%; 
+            transition: transform 0.3s ease-in-out; 
+        }
+
+        #section img:hover {
+            transform: scale(1.3); 
+        }
+
+        #footer {
+            text-align: center;
+            clear: both;
+        }
+
+        a {
+            margin-left: 20px;
+        }
+
+        a:link, a:visited {
+            background-color: rgba(167, 141, 141, 0);
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:link {
+            color: rgb(0, 26, 255);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(0, 26, 255);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(255, 128, 0);
+            text-decoration: none;
+        }
+
+        h1 {
+            font-family: 'Lobster', sans-serif;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: rgb(0, 26, 255);
+        }
+
+        h6 {
+            color: rgb(0, 26, 255);
+        }
+
+        #navigation .highlight {
+            background-color: rgb(0, 26, 255);
+            color: white;
+        }
+
+        #aside .highlight{
+            text-decoration: underline;
+        }
+
+        li {
+            color: rgb(0, 26, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <a href="index.html"><h1>Parrot</h1></a>
+    </div>
+    <div id="navigation">
+        <a href="scarlet_macaw.html" >Scarlet macaw</a> 
+        <a href="grey_parrot.html">Grey parrot</a>
+        <a href="sunconure.html" class="highlight">Sunconure</a>
+        <a href="nyasa_lovebird.html" >Nyasa lovebird</a>
+        <a href="kaique.html" >Kaique</a>
+    </div>
+
+    <div class="clear"></div>
+    
+    <div id="aside">
+        <h2>Sunconure</h2>
+        <ul>
+            <li><a href="sunconure.html" >Feature</a></li>
+        </ul>
+        <ul>
+            <li><a href="sunconure2.html" class="highlight">Gallery</a></li>
+        </ul>
+        <ul>
+            <li><a href="sunconure3.html">Videos</a></li>
+        </ul>
+    </div>
+        
+    <div id="section">
+        <table>
+            <tr>
+                <td><img src="img/s2.jpg" width="200px"></td> <td><img src="img/s3.jpg" width="200px"></td> <td><img src="img/s4.jpg" width="200px"></td>
+            </tr>
+            <tr>
+                <td><img src="img/s5.jpg" width="200px"></td> <td><img src="img/s6.jpg" width="200px"></td> <td><img src="img/s7.jpg" width="200px"></td>
+            </tr>
+            <tr>
+                <td><img src="img/s8.jpg" width="200px"></td> <td><img src="img/s9.jpg" width="200px"></td> <td><img src="img/s10.jpg" width="200px"></td>
+            </tr>
+            <tr>
+                <td><img src="img/s11.jpg" width="200px"></td> <td><img src="img/s12.jpg" width="200px"></td> <td><img src="img/s13.jpg" width="200px"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="clear"></div>
+    <br><br><br><br><br><br>
+    <div id="footer">
+        
+        <h6>© 2024. parrot. all rights reserved.<br>222361084 ㅣ 이화정 ㅣ webpublishing ㅣ e-mail: lhj0126@kaywon.ac.kr</h6>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>
+
